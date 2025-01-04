@@ -83,7 +83,7 @@ desc = "The homepage of my github account"
 [[params.links.user]]
 name = "LinkedIn"
 url = "www.linkedin.com/in/william-h-4b5575116"
-icon = "fa-brands fa-linkedin"
+icon = "fab fa-linkedin"
 desc = "My LinkedIn account"
 # hugo module configuration
 [module]
