@@ -14,15 +14,5 @@ title: William Hobson's Blog and Portfolio
 {{< /blocks/cover >}}
 
 
-{{% blocks/section type="row" %}}
-
-{{% blocks/feature icon="fab fa-github" title="My Personal Github Homepage" url="https://github.com/cal-lifornia" %}}
-This account hosts all my hobby and learning projects.
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-linkedin" title="My LinkedIn Profile" url="www.linkedin.com/in/william-h-4b5575116" %}}
-{{% /blocks/feature %}}
-
-{{% /blocks/section %}}
 
 
