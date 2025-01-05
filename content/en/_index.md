@@ -13,6 +13,3 @@ title: William Hobson's Blog and Portfolio
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
-
-
-
