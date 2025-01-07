@@ -5,7 +5,6 @@ slug: part2
 weight: 3
 description: >
  Running through part 2 of making a rust os: [A Minimal Rust Kernel](https://os.phil-opp.com/minimal-rust-kernel/)
-draft: true
 ---
 
 ## Changes made before starting part 2 of the tutorial
