@@ -8,7 +8,7 @@ description: >
 draft: true
 ---
 
-## Pre-part 2 changes
+## Changes made before starting part 2 of the tutorial
 Before starting part two I noticed that there were two issues I had to look at.
 
 ### Unsafe **no_mangle**
@@ -47,3 +47,12 @@ reported errors based on using the **std** library.
 allTargets = false
 targets = "aarch64-apple-darwin"
 ```
+
+## Actually working on Part 2
+Thankfully while working on part two there were no issues involving my Nix setup or using a newer version.
+I only had to add the `llvm-tools-preview` to my `rust-toolchain.toml` file so that the feature was added as a part of my
+dev shell and then add `cargo-bootimage` to the list of Nix packages that should be available as well.
+
+### Thoughts
+- I had a look at the later versions of the bootloader library in case trying to use it would be worth it but as of right
+now it seems too large a task. Will possibly look at it later when I have more experience with OS dev.
